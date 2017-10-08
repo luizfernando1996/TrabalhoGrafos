@@ -13,8 +13,27 @@ namespace TrabalhoGrafos.Controller
 
         #region "Operações Fundamentais"
 
-        //Constroi o grafo
-        public void construirArestas(Vertice v1, Vertice v2) { }
+        //Constroi o grafo não dirigido
+        public void construirGrafo(string v1, string v2)
+        {
+            //Pesquisa se já existe o vertice v1 
+            //se sim ele só coloca o vertice v2 na lista de adjacencia do vertice v1
+
+            //se não ele cria o vertice v1 antes de inserir v2
+            //criarVertice(){ }
+
+        }
+
+        //cria o vertice como um "vetor" sem nenhuma aresta
+        public void criarVertice(string v1)
+        {
+            Vertice vert = new Vertice(v1);
+        }
+
+        //"adiciona o vertice na lista de adjacencia, compreendida pelo objeto V1"
+        public void adicionarVertice(Vertice V1,string v2) {
+
+        }
 
         //Lê do arquivo txt os grafos e joga na memoria ram...na memoria executavel deste programa
         public void lerArqTxT() { }

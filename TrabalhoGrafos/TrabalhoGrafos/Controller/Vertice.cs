@@ -12,7 +12,6 @@ namespace TrabalhoGrafos.Controller
 
         public Vertice(string nomeVertice) {
             this.nomeVertice = nomeVertice;
-
         }
     }
 }
