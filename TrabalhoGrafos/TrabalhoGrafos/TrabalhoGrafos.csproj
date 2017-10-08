@@ -42,11 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\Grafo.cs" />
+    <Compile Include="Controller\Vertice.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Entregas\Primeira\Untitled-2.png" />
+    <Content Include="Model\NaoDirigido\DesenhoDoGrafo.png" />
+    <Content Include="Model\NaoDirigido\ListaDeAdjacencia.png" />
+    <Content Include="Model\NaoDirigido\GrafosNaoDirigidos .txt" />
+    <Content Include="Model\Dirigido\GrafosDirigidos.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
