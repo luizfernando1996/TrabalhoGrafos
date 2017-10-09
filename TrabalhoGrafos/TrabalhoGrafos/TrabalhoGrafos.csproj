@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Controller\Grafo.cs" />
     <Compile Include="Controller\Vertice.cs" />
+    <Compile Include="Controller\Vetor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

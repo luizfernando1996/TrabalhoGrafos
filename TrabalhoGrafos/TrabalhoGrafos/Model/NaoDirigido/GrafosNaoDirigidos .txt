@@ -1,6 +1,4 @@
 ﻿//Será implementado através da lista de adjacência
-Grafo
-
 1	2	4	5
 2	1	5	4	3
 3	2	4

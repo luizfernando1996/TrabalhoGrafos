@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 
 namespace TrabalhoGrafos.Controller
 {
-    class Vertice
+    class Vetor
     {
         public string nomeVertice;
-        public Vertice next;
+        public Vertice primeiro;
 
-        public Vertice(string nomeVertice) {
+        public Vetor(string nomeVertice, Vertice obj)
+        {
             this.nomeVertice = nomeVertice;
-            this.next = null; 
+            this.primeiro = obj;
         }
+
     }
 }
